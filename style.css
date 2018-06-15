@@ -5,3 +5,13 @@
 .offline{
     background-color: #c0392b;
 }
+
+.inputV{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.boutonV{
+    padding: 5px;
+    margin-top: 10px;
+}

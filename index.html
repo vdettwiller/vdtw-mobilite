@@ -2,10 +2,26 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link href="style.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <title>Document sans nom</title>
 </head>
 
 <body>
+
+    <script>
+  
+  $(document).ready(function() {
+
+
+    if(navigator.onLine)
+    {
+        ("body").addClass("online"); //Ajout de la class online au body si en ligne
+    }
+    else{
+        ("body").addClass("offline"); //Sinon Ajout de la class offline au body si hors ligne
+    }
+}
+</script>
 </body>
 </html>
